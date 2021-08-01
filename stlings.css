@@ -1,0 +1,98 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google_logo {
+  height: 100px;
+  margin-top: 150px;
+}
+
+.input-icons i {
+  position: relative;
+  top: 40px;
+  color: grey;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+#container {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  margin: auto;
+}
+
+#input_field {
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+#lucky_button, #search_button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#search_button {
+  margin-right: 4px;
+}
+
+#lucky_button {
+  margin-left: 4px;
+}
+
+#go_to {
+  align-items: right;
+  text-align: right;
+  margin: 10px;
+}
+#go_to a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+#go_to a:hover {
+  text-decoration: underline;
+}
+
+.advanced_inputs {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+#logo_advanced {
+  height: 4px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=stlings.css.map */

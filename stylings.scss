@@ -1,0 +1,161 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google_logo {
+  height: 100px;
+  margin-top: 150px;
+}
+
+.input-icons i {
+  position: relative;
+  top: 40px;
+  color: grey;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+#container {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  margin: auto;
+}
+#input_field {
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+%button_designs {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+#search_button {
+  @extend %button_designs;
+  margin-right: 4px;
+}
+#lucky_button {
+  @extend %button_designs;
+  margin-left: 4px;
+}
+
+#go_to {
+  align-items: right;
+  text-align: right;
+  margin: 10px;
+  a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+#input_container {
+  position: absolute;
+  display: block;
+  align-items: left;
+  margin: 10px;
+}
+
+#logo_advanced {
+  height: 25px;
+  margin: 10px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+label {
+  padding-right: 70px;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#adv {
+  font-family: arial, sans serif;
+  font-size: 20px;
+  color: #d93034;
+  margin: 25px 35px;
+  position: relative;
+  top: 25px;
+}
+
+hr {
+  margin: 0;
+}
+
+.advanced_inputs {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  width: 500px;
+  padding: 1px 8px;
+  margin: 8px;
+}
+
+.left-text {
+  margin: 10.5px;
+  font-size: 14px;
+}
+
+.right-text {
+  display: flexbox;
+  margin: 13px;
+  margin-left: 0;
+  font-size: 11px;
+  color: #555;
+  width: 500px;
+  position: relative;
+  left: -40px;
+}
+body {
+  font-family: arial, sans-serif;
+}
+
+#btn {
+  align-items: center;
+  position: relative;
+  left: 680px;
+  top: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+#find {
+  font-size: 20px;
+  margin: 10px 30px;
+}
